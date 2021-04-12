@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1995" height="120" viewBox="0 0 1995 120">
+  <defs>
+    <filter id="Quote_Bar" x="0" y="0" width="1995" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Quote_Bar)">
+    <path id="Quote_Bar-2" data-name="Quote Bar" d="M0,0H1920V19.615c0,14.02-9.85,25.385-22,25.385H22C9.85,45,0,33.635,0,19.615Z" transform="translate(31.5 28.5)" fill="#262e42"/>
+  </g>
+</svg>

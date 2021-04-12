@@ -1,0 +1,763 @@
+.current {
+  color: red;
+}
+.labelup {
+  transform: translate(0, 0) !important;
+}
+.label1up {
+  transform: translate(0, 0) !important;
+}
+.is-danger.text-body {
+  animation: shake 0.3s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  background: url(//my-assets.netlify.com/codepen/dailyui-001/ico-invalid.svg)
+    center no-repeat;
+  border-bottom: 2px solid #f37b56;
+  box-shadow: none;
+  transform: translate3d(0, 0, 0);
+  border-color: #f37b56;
+  background-position: 96% 34%;
+}
+.help {
+  text-align: left;
+  font-size: 13px;
+  color: #f37b56;
+  font-weight: 700;
+  position: relative;
+  top: -10px;
+  margin-bottom: 0px;
+}
+.is-danger.text-small-uppercase {
+  color: #f37b56;
+}
+.error {
+  color: #f37b56;
+  font-size: 14px;
+  text-align: left;
+}
+
+.mainContent {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+}
+.nav-homeBtn-img {
+  width: 15vw;
+}
+/* main Left start */
+.mainLeft {
+  text-align: center;
+}
+.mainLeft img {
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+  object-fit: contain !important;
+  padding-right: 5rem;
+}
+.mainLeft p {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  padding-right: 5rem;
+}
+.mainLeftContent {
+  /*width: 90%;*/
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* main Left end */
+.middleLine {
+  border-right: 1px solid grey;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  right: 50%;
+}
+/* mainRight start */
+.mainRight {
+  text-align: center;
+}
+
+.CreateAccountTitle h1 {
+  color: #57bb71;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.PersonalDetailsTitle h1 {
+  color: #57bb71;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.EducationalDetailsTitle h1 {
+  color: #57bb71;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.SignupCard {
+ background-color: transparent;
+}
+
+.CreateAccountCheckbox {
+  margin-bottom: 2%;
+}
+
+.form-inputs {
+  margin-bottom: 3.5%;
+  width: 100%;
+}
+
+.MuiFormLabel-root {
+  color: #57bb71 !important;
+  font-weight: 700 !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid #57bb71 !important;
+}
+
+.MuiInput-underline:before {
+  border-bottom: 2px solid #57bb71 !important;
+}
+
+.MuiFormControl-root {
+  width: 75% !important;
+}
+
+.MuiButton-containedSecondary {
+  width: 75% !important;
+  background-color: #f37b56 !important;
+}
+
+.MuiTypography-body1 {
+  font-size: 0.9rem !important;
+}
+
+.MuiButtonGroup-grouped {
+  min-width: 5% !important;
+}
+
+.MuiButton-text {
+  padding: 2.5% 12% !important;
+}
+
+hr {
+  color: black;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiButton-textPrimary {
+  color: #57bb71 !important;
+  font-weight: 700 !important;
+}
+
+.MuiButtonGroup-groupedTextPrimary:not(:last-child) {
+  border-color: #57bb71 !important;
+}
+
+.MuiButtonGroup-groupedTextHorizontal:not(:last-child) {
+  border-right: 2px solid rgba(87, 187, 113, 0.2) !important;
+}
+
+.back-button {
+  width: 35% !important;
+}
+
+.prev-button {
+  margin-right: 0.5% !important;
+}
+
+.sub-button {
+  margin-left: 0.5% !important;
+}
+
+.text-small-uppercase {
+  color: #57bb71;
+  font-weight: 700;
+  float: left;
+  margin-left: 13%;
+  margin-bottom: 2%;
+}
+
+.edu_inputs {
+  /* margin-top:5%!important; */
+  margin-left: 1% !important;
+}
+
+.edu_board {
+  padding: 0.5rem;
+  border-radius: 30px;
+  border: 2px solid rgb(87, 187, 113);
+  margin-right: 2.5rem;
+  margin-top: 3%;
+  cursor: pointer;
+  color: rgb(87, 187, 113);
+  background-color: transparent;
+  text-align: center;
+  width: 18%;
+}
+.edu_board:hover {
+  background-color: rgb(87, 187, 113);
+  color: white;
+}
+.edu_board p {
+  margin: 0;
+  font-size: 1rem !important;
+  font-weight: 600;
+}
+
+.loginCard {
+  width: 75%;
+  margin: 0 auto;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 3% !important;
+  background-color: #f9f9f9 !important;
+  border: none !important;
+  box-shadow: 0 1.1px 2.2px rgba(0, 0, 0, 0.022),
+    0 2.5px 5.3px rgba(0, 0, 0, 0.032), 0 4.8px 9.9px rgba(0, 0, 0, 0.04),
+    0 8.5px 17.6px rgba(0, 0, 0, 0.048), 0 15.9px 33px rgba(0, 0, 0, 0.058),
+    0 38px 79px rgba(0, 0, 0, 0.08);
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+}
+.card .title {
+  border-bottom: 0.2vh solid rgb(175, 175, 175);
+}
+.card .title h1 {
+  font-size: 50px;
+  color: #57bb71;
+  font-weight: 600;
+  padding: 1%;
+  margin-top: 1rem;
+}
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  text-align: left;
+}
+.inputs input {
+  width: 100%;
+  padding: 13px;
+  border-radius: 5vh;
+  font-size: 18px;
+  border: 0.1vw solid rgb(105, 105, 105);
+}
+.checkbox {
+  width: 73%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.6%;
+  margin-bottom: 2.5%;
+}
+.checkbox p {
+  margin: 0;
+  /*font-size: 20px;*/
+}
+.checkbox input {
+  width: 18px;
+  height: 18px;
+}
+
+.rememberBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rememberBox p {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.login {
+  width: 74%;
+  margin: 0 auto;
+  margin-bottom: 2.5%;
+}
+.loginBtn {
+  width: 100%;
+  background-color: rgb(87, 187, 113);
+  border: 2px solid rgb(87, 187, 113);
+  padding-top: 1.8%;
+  padding-bottom: 1.8%;
+  border-radius: 1.2vh;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.5s;
+}
+.loginBtn:hover {
+  color: rgb(87, 187, 113);
+  background-color: transparent;
+}
+
+.hero {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5%;
+}
+.hero .hr {
+  width: 30%;
+  border-top: 0.1vh solid rgb(161, 161, 161);
+  position: relative;
+}
+.hero p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.faceG img {
+  width: 12%;
+}
+.faceG img:last-of-type {
+  margin-left: 2%;
+}
+
+.faceG p {
+  font-size: 15px;
+}
+.blue {
+  color: #3fa7d6;
+  font-weight: 500;
+}
+.orLogin {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.backBtn {
+  color: rgb(87, 187, 113);
+  background-color: transparent;
+  margin-right: 10px;
+}
+.backBtn:hover {
+  background-color: rgb(87, 187, 113);
+  color: white;
+}
+
+.CreateAccount-password-confirm {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.CreateAccount-password-confirm p {
+  text-align: left;
+}
+
+.CreateAccount-password-confirm input {
+  width: 95%;
+}
+.CreateAccount_submitDiv {
+  width: 74%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.CreateAccount_submitBtn {
+  width: 100%;
+  background-color: rgb(87, 187, 113);
+  border: 2px solid rgb(87, 187, 113);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 1.2vh;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.5s;
+}
+.CreateAccount_submitBtn:hover {
+  color: rgb(87, 187, 113);
+  background-color: transparent;
+}
+.CreatedAccount-half-inputs input {
+  padding: 13px;
+}
+
+/* //Personal Details 1 start */
+.personalDetails_1-inputs {
+  position: relative;
+}
+.personalDetails_1-loginBtnDiv {
+  display: flex;
+  color: #57bb71;
+  font: 700 1.5rem "Montserrat";
+  letter-spacing: 0.5rem;
+}
+.personalDetails_1-mobile_numbers_select {
+  position: absolute;
+  left: 0;
+  top: 65%;
+  margin-left: 5%;
+  border: none;
+  font-size: 17px;
+}
+.personalDetails_1-inputs {
+  margin-bottom: 10%;
+}
+.personalDetails_1-mobile_numbers {
+  padding-left: 18% !important;
+}
+.EducationalDetails_class {
+  padding-top: 2%;
+}
+.EducationalDetails_class_select {
+  width: 100%;
+  font-size: 17px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #57bb71;
+  box-sizing: border-box;
+  outline: none;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.EducationalDetails_class_remeberBox {
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.EducationalDetails_class_remeberBox p {
+  font-size: 18px;
+}
+.EducationalDetails_class_select_stateDiv {
+  width: 49%;
+}
+.EducationalDetails_class_select_state {
+  padding: 15px;
+  width: 100%;
+  font-size: 17px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #57bb71;
+  box-sizing: border-box;
+  outline: none;
+}
+.EducationalDetails_colorBlack {
+  color: black;
+}
+.confirmation-code {
+  margin-bottom: 10%;
+}
+.edu_checkbox p {
+  font-size: 15px !important;
+}
+
+/* Background */
+.green-bg {
+  background-color: #57bb72;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.white-bg {
+  background-color: white;
+  position: absolute;
+  opacity: 0.85;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Breakpoints */
+@media screen and (min-width: 1439.98px) {
+  .nav-logo {
+    width: 250px;
+    height: auto;
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 1399.98px) {
+  .mainLeft img {
+    width: 60% !important;
+    right: 15% !important;
+  }
+  .mainLeft p {
+    width: 60% !important;
+    margin-left: 5% !important;
+  }
+  .EducationalDetailsTitle h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .material-icons {
+    margin-top: 10px;
+  }
+  .MuiTypography-body1 {
+    font-size: 0.65rem !important;
+  }
+  .CreateAccountTitle h1 {
+    font-size: 2.5rem;
+  }
+  .PersonalDetailsTitle h1 {
+    font-size: 2.5rem;
+  }
+  .EducationalDetailsTitle h1 {
+    font-size: 2.15rem;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .mainLeft {
+    display: none;
+  }
+  .middleLine {
+    display: none;
+  }
+  .MuiTypography-body1 {
+    font-size: 0.75rem !important;
+  }
+  .MuiButton-root {
+    font-size: 0.85rem !important;
+  }
+  .CreateAccountTitle h1 {
+    font-size: 3rem;
+  }
+  .PersonalDetailsTitle h1 {
+    font-size: 3rem;
+  }
+  .EducationalDetailsTitle h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1024.98px) and (orientation: portrait) {
+}
+
+@media screen and (max-width: 768.98px) and (orientation: portrait) {
+  .EducationalDetailsTitle h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 625.98px) {
+  .nav-logo {
+    width: 180px;
+  }
+  .hero p {
+    font-size: 14px !important;
+  }
+  .faceG p {
+    font-size: 14px !important;
+  }
+  .CreateAccountTitle h1 {
+    font-size: 2.5rem;
+  }
+  .PersonalDetailsTitle h1 {
+    font-size: 2.5rem;
+  }
+  .MuiFormLabel-root {
+    font-size: 0.8rem !important;
+  }
+  .edu_text {
+    font-size: 0.8rem !important;
+  }
+  .MuiButton-root {
+    font-size: 0.8rem !important;
+  }
+  .MuiSvgIcon-root {
+    width: 0.8em !important;
+    height: 0.8em !important;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .nav-logo {
+    width: 150px;
+    height: auto;
+    padding-top: 4px;
+  }
+  .hero p {
+    font-size: 12px !important;
+  }
+  .faceG p {
+    font-size: 12px !important;
+  }
+  .MuiTypography-body1 {
+    font-size: 2vw !important;
+  }
+  .PrivateSwitchBase-root-2 {
+    padding: 2px !important;
+  }
+  .MuiSvgIcon-root {
+    width: 0.75em !important;
+    height: 0.75em !important;
+  }
+  .CreateAccountTitle h1 {
+    font-size: 2rem;
+  }
+  .PersonalDetailsTitle h1 {
+    font-size: 2rem;
+  }
+  .EducationalDetailsTitle h1 {
+    font-size: 2rem;
+  }
+  .SignupCard {
+    width: 85% !important;
+  }
+}
+
+@media screen and (max-width: 450.98px) {
+  .CreateAccountTitle h1 {
+    font-size: 1.5rem;
+  }
+  .PersonalDetailsTitle h1 {
+    font-size: 1.8rem;
+  }
+  .EducationalDetailsTitle h1 {
+    font-size: 1.65rem;
+  }
+  .MuiFormLabel-root {
+    font-size: 0.7rem !important;
+  }
+  .edu_text {
+    font-size: 0.7rem !important;
+    margin-left: 10%;
+  }
+  .edu_inputs {
+    margin-left: 0;
+  }
+  .makeStyles-formControl-23 {
+    margin: 5px !important;
+    min-width: 150px !important;
+  }
+  .MuiButton-root {
+    font-size: 0.7rem !important;
+  }
+  .MuiSvgIcon-root {
+    width: 0.65em !important;
+    height: 0.65em !important;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .nav-logo {
+    width: 130px;
+    height: auto;
+    margin-top: 4px;
+  }
+  .MuiTypography-body1 {
+    font-size: 1.8vw !important;
+  }
+  .PrivateSwitchBase-root-2 {
+    padding: 1px !important;
+  }
+  .MuiSvgIcon-root {
+    width: 0.6em !important;
+    height: 0.6em !important;
+  }
+  .MuiFormLabel-root {
+    font-size: 0.7rem !important;
+  }
+  .faceG p {
+    font-size: 10px !important;
+  }
+  .hero p {
+    font-size: 10px !important;
+  }
+  .MuiFormControl-root {
+    width: 90% !important;
+  }
+  .makeStyles-formControl-7 {
+    margin: 3px !important;
+    min-width: 125px !important;
+  }
+  .CreateAccountTitle h1 {
+    font-size: 1.2rem;
+  }
+  .PersonalDetailsTitle h1 {
+    font-size: 1.5rem;
+  }
+  .EducationalDetailsTitle h1 {
+    font-size: 1.35rem;
+  }
+  .SignupCard {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 320.98px) {
+  .nav-logo {
+    width: 130px;
+    height: auto;
+    margin-top: 0px;
+  }
+  .hero p {
+    font-size: 10px !important;
+  }
+  .faceG p {
+    font-size: 10px !important;
+  }
+  .MuiTypography-body1 {
+    font-size: 1.7vw !important;
+  }
+  .PrivateSwitchBase-root-2 {
+    padding: 1px !important;
+  }
+  .MuiSvgIcon-root {
+    width: 0.4em !important;
+    height: 0.4em !important;
+  }
+  .MuiFormLabel-root {
+    font-size: 0.65rem !important;
+  }
+  .edu_text {
+    font-size: 0.65rem !important;
+    margin-left: 8%;
+  }
+  .edu_inputs {
+    margin-left: 0;
+  }
+  .MuiButton-root {
+    font-size: 0.65rem !important;
+  }
+  .makeStyles-formControl-23 {
+    margin: 3px !important;
+    min-width: 125px !important;
+  }
+  .MuiFormControl-root {
+    width: 95% !important;
+  }
+  .CreateAccountTitle h1 {
+    font-size: 1.15rem;
+  }
+  .PersonalDetailsTitle h1 {
+    font-size: 1.3rem;
+  }
+  .EducationalDetailsTitle h1 {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 240.98px) {
+  .nav-logo {
+    width: 110px;
+    height: auto;
+    margin-top: 0px;
+  }
+}

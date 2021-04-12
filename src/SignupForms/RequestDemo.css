@@ -1,0 +1,827 @@
+body button,
+input {
+  outline: none !important;
+}
+/* navbar start */
+
+/* navbar end */
+.overlay {
+  width: 100%;
+  object-fit: contain;
+  /* background-image: url("../../public/Images/Overlay\ Shapes.png"); */
+  /* background-color: rgb(87, 187, 113, 0.15); */
+}
+.overlayImg {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+}
+
+
+.choose {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.choose_li {
+  margin-bottom: 3%;
+}
+
+.choose_li_no {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500; 
+}
+
+.why-li {
+    width: 3.5rem!important;
+    margin-left: 6.5%!important;
+    margin-top: 15%!important;
+}
+
+.fill_in_details {
+    width: 100px;
+    height: 100px;
+    background-color: #F8DFFF;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 2%;
+    text-align: center;
+    box-shadow: 3px 6px 25px rgb(175, 175, 175);
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+.call_back {
+    width: 100px;
+    height: 100px;
+    background-color: #FFD2D2;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 2%;
+    text-align: center;
+    box-shadow: 3px 6px 25px rgb(175, 175, 175);
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+.evaluate_needs {
+    width: 100px;
+    height: 100px;
+    background-color: #D2FDFF;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 2%;
+    text-align: center;
+    box-shadow: 3px 6px 25px rgb(175, 175, 175);
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+.deliver_demo {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFCF;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 2%;
+    text-align: center;
+    box-shadow: 3px 6px 25px rgb(175, 175, 175);
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+.why-li-text {
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.why-li-heading {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.li-text {
+  /*padding-left: 2rem;*/
+  /*padding-bottom: 1rem;*/
+  text-align: left;
+}
+
+.mainContent-Request {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+}
+.nav-homeBtn-img {
+  width: 15vw;
+}
+/* main Left start */
+.mainLeft-Request{
+  text-align: center;
+  margin-top: 2.5rem;
+  padding-left: 2rem;
+}
+.mainLeft-Request img {
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+  object-fit: contain !important;
+}
+.mainLeft-Request p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.mainLeftContent-Request{
+  /*width: 90%;*/
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* main Left end */
+.middleLine-Request {
+  border-right: 1px solid grey;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  right: 50%;
+}
+/* mainRightLoginstart */
+.mainRight-Request {
+  text-align: center;
+}
+.RequestCard {
+  width: 75%;
+  margin: 0 auto;
+  top: 50%;
+  /* -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+  border-radius: 3% !important;
+  background-color: #f9f9f9 !important;
+  border: none !important;
+  box-shadow: 0 1.1px 2.2px rgba(0, 0, 0, 0.022),
+    0 2.5px 5.3px rgba(0, 0, 0, 0.032), 0 4.8px 9.9px rgba(0, 0, 0, 0.04),
+    0 8.5px 17.6px rgba(0, 0, 0, 0.048), 0 15.9px 33px rgba(0, 0, 0, 0.058),
+    0 38px 79px rgba(0, 0, 0, 0.08);
+}
+.cardContent-Request {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+}
+.card .request-title {
+  border-bottom: 0.2vh solid rgb(175, 175, 175);
+}
+.card .request-title h1 {
+  font-size: 50px;
+  color: #57bb71;
+  font-weight: 600;
+  padding: 1%;
+  margin-top: 1rem;
+}
+
+.blue {
+  color: #3fa7d6;
+  font-weight: 500;
+}
+
+.buttons {
+  margin-right: 0.5rem;
+}
+
+.back_btn {
+  width: 45%!important;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  text-align: left;
+}
+.req_inputs {
+  margin-top: 4rem!important;
+  margin-left: 1rem!important;
+}
+
+.EducationalDetails_class_select {
+  width: 100%;
+  font-size: 17px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #57bb71;
+  box-sizing: border-box;
+  outline: none;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.class_select > option:hover {
+  background-color: red;
+}
+
+/* Background */
+.green-bg {
+  background-color: #57BB72;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.white-bg {
+  background-color: white;
+  position: absolute;
+  opacity: 0.85;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Navbar */
+.nav-bar {
+  position: relative;
+  padding-top: 0.2rem;
+  margin: 0px 5px 0px 5px;
+}
+.nav-left{
+  margin: auto;
+  width: auto;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.nav-logo {
+  margin: auto;
+  width: 200px;
+  height: auto;
+  padding-top:2px;
+}
+.nav-center{
+  margin: auto;
+  width: auto;
+  text-align: center;
+  padding: 7px 0px 0px 90px;
+  font-family: 'montserrat';
+  font-weight: 500;
+}
+.label-1 {
+  text-decoration: none;
+  color: #262e42;
+  margin-right: 35px;
+}
+.label-2 {
+  text-decoration: none;
+  color: #262e42;
+}
+.label-3 {
+  text-decoration: none;
+  color: #262e42;
+  margin-left: 35px;
+}
+.nav-right{
+  margin: auto;
+  width: auto;
+  text-align: right;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+.sign-in {
+  text-decoration: none;
+  color: #262e42;
+  padding-right: 20px;
+}
+.request-demo {
+  text-decoration: none;
+  color: white;
+  background-color: crimson;
+  padding: 8px 8px;
+  border-radius: 7px;
+  font-weight: 500;
+}
+.request-demo:hover {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  background-color: transparent;
+  color: crimson;
+  font-weight: 500;
+  box-shadow: inset 0 0 0 3px  crimson, 0 0 1px rgb(0 0 0 / 0%);
+}
+.nav-ham {
+  width: auto;
+  margin: 9px 0px 0px 0px;
+  padding: 0px 0px 0px 20px;
+}
+.ham{
+  width: 30px;
+  height: 5px;
+  background-color: #262e42;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.material-icons {
+  width: auto;
+  margin: auto;
+  margin: 10px 0px 0px 0px;
+  padding-right: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #262e42;
+}
+.person-icon {
+  width: auto;
+  margin: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 2px;
+  text-decoration: none;
+  color: #262e42;
+}
+
+/* Breakpoints */
+@media screen and (min-width: 1439.98px) {
+  /*.nav-bar {
+      padding-top: 20px;
+      margin: 0px 15px 0px 15px;
+  }*/
+  .nav-logo {
+      width: 250px;
+      height: auto;
+      padding-top: 0px;
+  }
+  /*.sign-in {
+      font-size: 25px;
+}         
+  .material-icons {
+      font-size: 30px;
+      margin-top: 10px;
+      padding-right: 15px;
+  }
+  .person-icon {
+      padding-right: 2px;
+  }
+  .request-demo {
+      font-size: 22px;
+      padding: 12px 12px;
+  }
+  .nav-center {
+      font-size: 22px;
+      padding-left: 163px;
+      padding-top: 3px;
+  }*/
+}
+@media screen and (max-width: 1399.98px){
+  .request_btn {
+    padding: 0!important;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1377px) {
+  .RequestCard {
+    width: 90%!important;
+  }
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+  .RequestCard {
+    width: 95%!important;
+  }
+  .req_text{
+      font: 700 1rem 'Montserrat'!important;
+    }
+    .text-small-uppercase-request {
+      font: 700 1rem 'Montserrat'!important;
+    }
+  
+    .text-small-uppercase-button-request {
+      font: 700 1rem 'Montserrat'!important;
+    }
+    .card .request-title h1 {
+      font-size: 40px!important;
+    }
+    .RequestCard {
+      width: 85%;
+    }
+    .EducationalDetailsBoard_board p {
+    font: 600 1rem 'Montserrat'!important;
+  }
+  }
+
+@media screen and (max-width: 1199.98px){
+  .material-icons {
+      margin-top: 10px;
+  }
+  .req_inputs {
+    margin-top: 3.5rem;
+  }
+}
+@media screen and (max-width: 991.98px){
+.mainLeft-Request {
+  display: none;
+}
+}
+@media screen and (max-width: 1024.98px) and (orientation: portrait) {
+  
+}
+
+@media screen and (min-width: 991px) and (max-width: 1046px) {
+  .text-small-uppercase-request {
+    font: 700 1.2rem 'Montserrat'!important;
+  }
+
+  .text-small-uppercase-button-request {
+    font: 700 1.2rem 'Montserrat'!important;
+  }
+  .card .request-title h1 {
+    font-size: 40px!important;
+  }
+  form {
+      padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768.98px) and (orientation: portrait) {
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .EducationalDetailsBoard_board p {
+    font: 600 1.2rem 'Montserrat'!important;
+  }
+  .request_btn {
+    padding: 0!important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 766px) {
+  .req_text{
+      font: 700 1rem 'Montserrat'!important;
+    }  
+    .EducationalDetailsBoard_board p {
+    font: 600 1rem 'Montserrat'!important;
+  }
+  .request_btn {
+    padding: 0!important;
+  }
+}
+
+@media screen and (max-width: 625.98px) {
+  /*.person-icon {
+      padding-right: 0px;
+  }*/
+  .nav-logo {
+      width: 180px;
+  }
+  /*.nav-ham {
+      margin: 7px 0px 0px 0px;
+  }*/
+  .text-small-uppercase-request {
+  font: 700 1.2rem 'Montserrat'!important;
+}
+.EducationalDetailsBoard_board p {
+  font: 600 1rem 'Montserrat'!important;
+}
+
+.text-small-uppercase-button-request {
+  font: 700 1.2rem 'Montserrat'!important;
+}
+.card .request-title h1 {
+    font-size: 40px!important;
+  }
+  form {
+    padding: 10px;
+  }
+  .request_btn {
+    padding: 0!important;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  /*.quote {
+      color: white;
+      font-family: 'Montserrat';
+      font-size: 12px;
+      text-align: center;
+      padding: 3px 0px 3px 0px;
+  }
+  .nav-bar {
+      padding-top: 8px;
+      margin: 0px 0px 0px 0px;
+  }*/
+  .nav-logo {
+      width: 150px;
+      height: auto;
+      padding-top: 4px;
+  }
+  .request_btn {
+    padding: 0!important;
+  }
+  /*.person-icon {
+      display: none;
+  }
+  .sign-in {
+      display: none;
+  }
+  .request-demo {
+      font-size: 12px;
+  }
+  .material-icons {
+      padding-right: 7px;
+      margin-top: 8px;
+      font-size: 22px;
+  }
+  .nav-ham {
+      margin-top: 6px;
+      padding-left: 12px;
+  }
+  .ham {
+      width: 25px;
+      margin-bottom: 4px;
+  }*/
+}
+
+@media screen and (min-width: 513px) and (max-width: 533px) {
+  .req_board {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .RequestCard {
+      width: 90%!important;
+  }
+  .request_btn {
+    padding: 0!important;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .RequestCard {
+      width: 95%!important;
+  }
+  .card .request-title h1 {
+    font-size: 35px!important;
+  }
+  .request_btn {
+    padding: 0!important;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .nav-logo {
+      width: 130px;
+      height: auto;
+      margin-top: 4px;
+  }
+  .EducationalDetailsBoard_board p {
+    font: 600 0.55rem 'Montserrat'!important;
+  }
+  .request_btn {
+    padding: 0!important;
+  }
+}  
+
+@media screen and (max-width: 355px) {
+  .text-small-uppercase-request {
+    font: 700 0.9rem 'Montserrat'!important;
+  }
+
+  .text-small-uppercase-button-request {
+    font: 700 0.9rem 'Montserrat'!important;
+  }
+  .card .request-title h1 {
+    font-size: 30px!important;
+  }
+  form {
+      padding: 7px;
+  }
+  .RequestCard {
+      width: 98%!important;
+  }
+  .request_btn {
+    padding: 0 !important;
+    height: 2.5rem!important;
+  }
+  .EducationalDetailsBoard_board {
+    padding: 0.3rem!important;
+  }
+  .EducationalDetailsBoard_board p {
+    font: 600 0.8rem 'Montserrat'!important;
+  }
+  .req_inputs {
+    margin-top: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 354px) and (max-width: 399px) {
+  .EducationalDetailsBoard_board {
+    padding: 0.3rem!important;
+    border-radius: 20px!important;
+    margin-right: 0.4rem!important;
+    margin-top: 2%!important;
+  }
+  .EducationalDetailsBoard_board p {
+    font: 600 0.8rem 'Montserrat'!important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 336px) {
+  .EducationalDetailsBoard_board {
+    padding: 0.3rem!important;
+  }
+  .EducationalDetailsBoard_board p {
+    font: 600 0.7rem 'Montserrat'!important;
+  }
+}
+
+@media screen and (max-width: 320.98px) {
+  /*.quote {
+      color: white;
+      font-family: 'Montserrat';
+      font-size: 12px;
+      text-align: center;
+      padding: 3px 0px 3px 0px;
+  }
+  .nav-bar {
+      padding-top: 4px;
+      margin: 0px;
+  }*/
+  .nav-logo {
+      width: 130px;
+      height: auto;
+      margin-top: 0px;
+  }
+  .text-small-uppercase-request {
+    font: 700 0.9rem 'Montserrat'!important;
+  }
+
+  .text-small-uppercase-button-request {
+    font: 700 0.9rem 'Montserrat'!important;
+  }
+  .card .request-title h1 {
+    font-size: 25px!important;
+  }
+  form {
+      padding: 7px;
+  }
+  .RequestCard {
+      width: 98%!important;
+  }
+  .request_btn {
+    padding: 0 !important;
+    height: 2rem!important;
+  }
+  .EducationalDetailsBoard_board {
+    padding: 0.3rem!important;
+  }
+  .EducationalDetailsBoard_board p {
+    font: 600 0.6rem 'Montserrat'!important;
+  }
+  .req_inputs {
+    margin-top: 3rem;
+  }
+}
+
+
+@media screen and (min-width: 241px) and (max-width: 279px) {
+  .EducationalDetailsBoard_board {
+    padding: 0.2rem!important;
+  }
+  .EducationalDetailsBoard_board p {
+    font: 600 0.55rem 'Montserrat'!important;
+  }
+}
+
+@media screen and (max-width: 240.98px) {
+  .nav-logo {
+      width: 110px;
+      height: auto;
+      margin-top: 0px;
+  }
+  
+}
+
+@media screen and (min-width: 399px) and (max-width: 460px) {
+  .EducationalDetailsBoard_board {
+    padding: 5px!important;
+    border-radius: 25px!important;
+    margin-right: 0.4rem!important;
+    margin-top: 2%!important;
+  }
+  .EducationalDetailsBoard_board p {
+    font: 600 0.9rem 'Montserrat'!important;
+  }
+  }
+  
+  @media screen and (min-width: 461px) and (max-width: 512px) {
+  .EducationalDetailsBoard_board {
+    padding: 0.5rem!important;
+    border-radius: 25px!important;
+    margin-right: 0.4rem!important;
+    margin-top: 2%!important;
+  }
+  .EducationalDetailsBoard_board p {
+    font: 600 0.9rem 'Montserrat'!important;
+  }
+  }
+  
+  @media screen and (max-width: 309px) {
+  .EducationalDetailsBoard_board {
+    /* padding: 5px!important; */
+    border-radius: 20px!important;
+    margin-right: 0.3rem!important;
+    margin-top: 2%!important;
+  }
+  .EducationalDetailsBoard_board p {
+    font: 600 0.53rem 'Montserrat'!important;
+  }
+  }
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+.RequestCard {
+  width: 60%!important;
+}
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1200px) {
+  .choose_li_no {
+    font-size: 1.7rem; 
+  }
+  .why-li-text {
+    font-size: 0.7rem;
+}
+
+.why-li-heading {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .choose_li_no {
+    font-size: 1.5rem; 
+  }
+  .why-li-text {
+    font-size: 0.6rem;
+}
+
+  .why-li-heading {
+    font-size: 1.2rem;
+  }
+  .why-li {
+    width: 3rem!important;
+    margin-left: 5.5%!important;
+    margin-top: 15%!important;
+}
+
+  .fill_in_details {
+    width: 85px;
+    height: 85px;
+  }
+
+  .call_back {
+    width: 85px;
+    height: 85px;
+  }
+
+  .evaluate_needs {
+    width: 85px;
+    height: 85px;
+  }
+
+  .deliver_demo {
+    width: 85px;
+    height: 85px;
+  }
+}
+
+
+.class-dropdown {
+  border: none;
+  float: left;
+
+}
+
+.class-list {
+  overflow: none;
+}

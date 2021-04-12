@@ -1,0 +1,397 @@
+body button,
+
+input {
+  outline: none !important;
+}
+.labelup {
+  transform: translate(0, 0) !important;
+}
+.label1up {
+  transform: translate(0, 0) !important;
+}
+.is-danger.loginInput.text-body {
+  animation: shake 0.3s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  background: url(//my-assets.netlify.com/codepen/dailyui-001/ico-invalid.svg)
+    center no-repeat;
+  border-bottom: 2px solid #f37b56;
+  box-shadow: none;
+  transform: translate3d(0, 0, 0);
+  border-color: #f37b56;
+  background-position: 96% 34%;
+}
+.help {
+  text-align: left;
+  font-size: 13px;
+  color: #f37b56;
+  font-weight: 700;
+}
+.is-danger.text-small-uppercase-login.loginLabel {
+  color: #f37b56;
+}
+.error {
+  color: #f37b56;
+  font-size: 14px;
+  text-align: left;
+}
+
+.overlay {
+  width: 100%;
+  object-fit: contain;
+
+}
+.overlayImg {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+}
+.mainContent {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+}
+.nav-homeBtn-img {
+  width: 15vw;
+}
+/* main Left start */
+.mainLeftLogin {
+  text-align: center;
+}
+.mainLeftLogin img {
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+  object-fit: contain !important;
+}
+.mainLeftLogin p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.mainLeftContentLogin {
+  /*width: 90%;*/
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* main Left end */
+.middleLineLogin {
+  border-right: 1px solid grey;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  right: 50%;
+}
+/* mainRightLoginstart */
+.mainRightLogin {
+  text-align: center;
+}
+
+.LoginTitle h1 {
+  color: #57bb71;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.LoginCard {
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 3% !important;
+  border: none !important;
+  box-shadow: 0 1.1px 2.2px rgba(0, 0, 0, 0.022),
+    0 2.5px 5.3px rgba(0, 0, 0, 0.032), 0 4.8px 9.9px rgba(0, 0, 0, 0.04),
+    0 8.5px 17.6px rgba(0, 0, 0, 0.048), 0 15.9px 33px rgba(0, 0, 0, 0.058),
+    0 38px 79px rgba(0, 0, 0, 0.08);
+}
+
+.LoginCheckbox {
+  margin: 2%;
+}
+
+.form-inputs {
+  /* margin-bottom: 3.5%; */
+  width: 100%;
+}
+
+.MuiFormLabel-root {
+  color: #57bb71 !important;
+  font-weight: 700 !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid #57bb71 !important;
+}
+
+.MuiInput-underline:before {
+  border-bottom: 2px solid #57bb71 !important;
+}
+
+.MuiFormControl-root {
+  width: 75% !important;
+}
+
+.MuiButton-containedSecondary {
+  width: 75% !important;
+  background-color: #f37b56 !important;
+}
+
+.MuiTypography-body1 {
+  font-size: 0.9vw;
+}
+
+hr {
+  color: black;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5%;
+}
+.hero .hr {
+  width: 30%;
+  border-top: 0.1vh solid rgb(161, 161, 161);
+  position: relative;
+}
+.hero p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.faceG img {
+  width: 12%;
+}
+.faceG img:last-of-type {
+  margin-left: 2%;
+}
+
+.faceG p {
+  font-size: 15px;
+}
+.blue {
+  color: #3fa7d6;
+  font-weight: 500;
+}
+.orLogin {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+/* Background */
+.green-bg {
+  background-color: #57bb72;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.white-bg {
+  background-color: white;
+  position: absolute;
+  opacity: 0.85;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Breakpoints */
+@media screen and (min-width: 1439.98px) {
+  .nav-logo {
+    width: 250px;
+    height: auto;
+    padding-top: 0px;
+  }
+  .mainLeftContentLogin {
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+}
+@media screen and (max-width: 1399.98px) {
+  .mainLeftLogin img {
+    width: 60% !important;
+    right: 15% !important;
+  }
+  .mainLeftLogin p {
+    width: 60% !important;
+    margin-left: 5% !important;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .material-icons {
+    margin-top: 10px;
+  }
+
+  .MuiTypography-body1 {
+    font-size: 0.65rem !important;
+  }
+  .forget-password {
+    font-size: 0.65rem !important;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .mainLeftLogin {
+    display: none;
+  }
+  .middleLineLogin {
+    display: none;
+  }
+
+  .MuiTypography-body1 {
+    font-size: 0.75rem !important;
+  }
+  .forget-password {
+    font-size: 0.75rem !important;
+  }
+}
+@media screen and (max-width: 1024.98px) and (orientation: portrait) {
+}
+
+@media screen and (max-width: 768.98px) and (orientation: portrait) {
+}
+
+@media screen and (max-width: 625.98px) {
+  .nav-logo {
+    width: 180px;
+  }
+  .hero p {
+    font-size: 15px !important;
+  }
+  .faceG p {
+    font-size: 17px !important;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .nav-logo {
+    width: 150px;
+    height: auto;
+    padding-top: 4px;
+  }
+  .hero p {
+    font-size: 12px !important;
+  }
+  .faceG p {
+    font-size: 12px !important;
+  }
+  .MuiTypography-body1 {
+    font-size: 2vw !important;
+  }
+  .forget-password {
+    font-size: 2vw !important;
+  }
+  .PrivateSwitchBase-root-2 {
+    padding: 2px !important;
+  }
+  .MuiSvgIcon-root {
+    width: 0.75em !important;
+    height: 0.75em !important;
+  }
+  .LoginCard {
+    width: 85% !important;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .nav-logo {
+    width: 130px;
+    height: auto;
+    margin-top: 4px;
+  }
+  .MuiTypography-body1 {
+    font-size: 1.8vw !important;
+  }
+  .forget-password {
+    font-size: 1.8vw !important;
+  }
+  .PrivateSwitchBase-root-2 {
+    padding: 1.5px !important;
+  }
+  .MuiSvgIcon-root {
+    width: 0.5em !important;
+    height: 0.5em !important;
+  }
+  .MuiFormLabel-root {
+    font-size: 0.75rem !important;
+  }
+  .LoginTitle h1 {
+    font-size: 2rem;
+  }
+  .LoginCard {
+    width: 90% !important;
+  }
+  .faceG p {
+    font-size: 10px !important;
+  }
+  .hero p {
+    font-size: 10px !important;
+  }
+  .MuiFormControl-root {
+    width: 85% !important;
+  }
+}
+
+@media screen and (max-width: 320.98px) {
+  .nav-logo {
+    width: 130px;
+    height: auto;
+    margin-top: 0px;
+  }
+  .hero p {
+    font-size: 10px !important;
+  }
+  .faceG p {
+    font-size: 10px !important;
+  }
+ 
+  .forget-password {
+    font-size: 1.7vw !important;
+  }
+  .PrivateSwitchBase-root-2 {
+    padding: 1px !important;
+  }
+  .MuiSvgIcon-root {
+    width: 0.4em !important;
+    height: 0.4em !important;
+  }
+  .MuiFormLabel-root {
+    font-size: 0.7rem !important;
+  }
+}
+@media screen and (max-width: 240.98px) {
+  .nav-logo {
+    width: 110px;
+    height: auto;
+    margin-top: 0px;
+  }
+  .top-hr {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .LoginTitle h1 {
+    font-size: 20px;
+}
+
+.hero p {
+  display: none;
+}
+.hero .hr {
+ display: none;
+}
+.faceG {
+  display: none;
+}
+
+}
